@@ -1,0 +1,25 @@
+{
+  "name": "project-name",
+  "title": "project description",
+  "url": "http://site.com",
+  "author": "Author",
+  "copyright": "2014",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luizbills/phaser-boilerplate.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-connect": "~0.3.0",
+    "grunt-contrib-jshint": "~0.4.3",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-browserify": "~1.3.0",
+    "connect-livereload": "~0.2.0",
+    "grunt-open": "~0.2.0",
+    "matchdep": "~0.1.2"
+  }
+}
