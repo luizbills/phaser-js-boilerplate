@@ -1,4 +1,4 @@
-# Phaser Boilerplate v0.1.1
+# Phaser JS Boilerplate v0.1.1
 
 Automated workflow to [Phaser](https://github.com/photonstorm/phaser) Game Development (based on [FireShell](http://getfireshell.com/)).
 
