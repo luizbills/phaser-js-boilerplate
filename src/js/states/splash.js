@@ -13,7 +13,6 @@ Splash.prototype = {
   create: function () {
     var midx = 800/2,
       midy = 600/2,
-      _this = this,
       logo, tween;
 
     logo = this.logo = this.add.sprite(midx, midy, 'phaserLogo');
