@@ -22,8 +22,8 @@ Splash.prototype = {
     tween = this.add.tween(logo);
 
     tween.onComplete.add(function() {
-      _this.game.state.start('Preloader');
-    });
+      this.game.state.start('Preloader');
+    }, this);
 
     tween
       .to({ alpha: 0 }, 2000, Phaser.Easing.Linear.None)
