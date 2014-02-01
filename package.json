@@ -8,7 +8,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/luizbills/phaser-boilerplate.git"
+    "url": "https://github.com/user/project.git"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
