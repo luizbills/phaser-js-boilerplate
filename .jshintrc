@@ -14,7 +14,6 @@
   "noempty": true,
   "regexp": true,
   "undef": true,
-  "unused": true,
   "strict": true,
   "smarttabs": true,
   "eqnull": false,

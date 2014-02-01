@@ -40,7 +40,8 @@ module.exports = function (grunt) {
       src: 'src',
       game: 'game',
       assets: '<%= project.game %>/assets',
-      js: '<%= project.src %>/js/*.js'
+      js: '<%= project.src %>/js/{,*/}*.js',
+      phaser: '<%= project.src %>/phaser/phaser.dev.js'
     },
 
     /**
@@ -160,7 +161,7 @@ module.exports = function (grunt) {
         options: {
           shim: {
             'Phaser': {
-              path: '<%= project.src %>/js/libs/phaser-1.1.3.js',
+              path: '<%= project.phaser %>',
               exports: null
             }
           }
