@@ -12,13 +12,11 @@ Get started with Phaser-Boilerplate:
 
 ## Contributing
 
-Steps to contributing:
-
+####Steps to contributing:
 * Create your feature branch, commit changes and push to origin
 * Submit a Pull Request with details on your feature branch
 
-Guidelines:
-
+####Guidelines:
 * Non-trivial changes should be discussed in an issue first
 * Do not create issues for support reasons, use [Stack Overflow](http://stackoverflow.com)
 
