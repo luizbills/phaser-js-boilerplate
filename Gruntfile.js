@@ -8,11 +8,13 @@
 /**
  * Livereload and connect variables
  */
-var LIVERELOAD_PORT = 35729;
-var lrSnippet = require('connect-livereload')({
+var LIVERELOAD_PORT = 35729,
+
+lrSnippet = require('connect-livereload')({
   port: LIVERELOAD_PORT
-});
-var mountFolder = function (connect, dir) {
+}),
+
+mountFolder = function (connect, dir) {
   return connect.static(require('path').resolve(dir));
 };
 
@@ -57,6 +59,7 @@ module.exports = function (grunt) {
               ' * @author <%= pkg.author %>\n' +
               ' * @version <%= pkg.version %>\n' +
               ' * Copyright <%= pkg.copyright %>. <%= pkg.license %> licensed.\n' +
+              ' * Made using Phaser JS Boilerplate <https://github.com/luizbills/phaser-js-boilerplate/>' +
               ' */\n'
     },
 
