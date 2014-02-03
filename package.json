@@ -1,6 +1,7 @@
 {
   "name": "project-name",
-  "title": "project description",
+  "title": "Project Title",
+  "description": "Project Description",
   "url": "http://site.com",
   "author": "Author",
   "copyright": "2014",
