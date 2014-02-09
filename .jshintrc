@@ -19,6 +19,8 @@
   "devel": true,
   "jquery": true,
   "onevar": true,
+  "mixedspaces": true,
+  "evil": true,
   "globals" : {
   }
 }
