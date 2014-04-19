@@ -162,12 +162,6 @@ module.exports = function (grunt) {
         src: ['<%= project.src %>/js/index.js'],
         dest: '<%= project.game %>/game.js',
         options: {
-          shim: {
-            'Phaser': {
-              path: '<%= project.phaser %>',
-              exports: null
-            }
-          }
         }
       }
     }
